@@ -11,9 +11,8 @@ config_version=5
 [application]
 
 config/name="skrunkle"
-run/main_scene="uid://84l4iaymckwu"
+run/main_scene="res://game.tscn"
 config/features=PackedStringArray("4.7", "Forward Plus")
-config/icon="res://icon.svg"
 
 [display]
 
