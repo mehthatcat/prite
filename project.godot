@@ -53,4 +53,5 @@ sprint={
 [rendering]
 
 rendering_device/driver.windows="d3d12"
+textures/vram_compression/import_etc2_astc=true
 environment/defaults/default_clear_color=Color(0.06033708, 0.069845706, 0.12878865, 1)
