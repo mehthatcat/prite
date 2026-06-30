@@ -1,10 +1,17 @@
 [gd_scene format=3 uid="uid://84l4iaymckwu"]
 
 [ext_resource type="PackedScene" uid="uid://bmggylnnsf84t" path="res://player.tscn" id="1_80nbo"]
+[ext_resource type="Texture2D" uid="uid://d0ebdof14m1rr" path="res://assets/back.png" id="1_e2o6t"]
+[ext_resource type="AudioStream" uid="uid://6x5oa4l5bylr" path="res://assets/solitude.mp3" id="3_feb5d"]
 
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_hfg0r"]
 
 [node name="game" type="Node2D" unique_id=89914779]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1524490693]
+position = Vector2(596, 693)
+scale = Vector2(2.1307373, 2.1307373)
+texture = ExtResource("1_e2o6t")
 
 [node name="player" parent="." unique_id=99906334 instance=ExtResource("1_80nbo")]
 position = Vector2(533, -23)
@@ -18,3 +25,10 @@ zoom = Vector2(0.325, 0.325)
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=443577267]
 position = Vector2(444, 240)
 shape = SubResource("WorldBoundaryShape2D_hfg0r")
+
+[node name="StaticBody2D2" type="StaticBody2D" parent="." unique_id=853473235]
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=2031301662]
+stream = ExtResource("3_feb5d")
+volume_db = -23.264
+autoplay = true

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dikvt4pooqd6h"
-path="res://.godot/imported/Untitled_Artwork-7.png-3185706a6ec6a8f61a10212455657b46.ctex"
+uid="uid://dgc0y0284yag0"
+path="res://.godot/imported/Untitled_Artwork-19.png-b29b54de4ea4b99e334205d4e2241606.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/prite/Untitled_Artwork-7.png"
-dest_files=["res://.godot/imported/Untitled_Artwork-7.png-3185706a6ec6a8f61a10212455657b46.ctex"]
+source_file="res://assets/prite norm/Untitled_Artwork-19.png"
+dest_files=["res://.godot/imported/Untitled_Artwork-19.png-b29b54de4ea4b99e334205d4e2241606.ctex"]
 
 [params]
 

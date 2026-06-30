@@ -21,7 +21,7 @@ func _physics_process(delta: float) -> void:
 	# sprint IF I CAN GET IT TO WORK >:(
 	if Input.is_action_pressed("sprint") and is_on_floor() and Input.is_action_pressed("move_left") or Input.is_action_pressed("sprint") and is_on_floor() and Input.is_action_pressed("move_right"):
 		animated_sprite.play("sprint")
-		current_speed = SPEED * 2
+		current_speed = SPEED * 3
 	else:
 		animated_sprite.play("idle")
 		current_speed = SPEED
