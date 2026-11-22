@@ -1,2 +1,5 @@
 first game ever
-im very sorry
+basically a movement test
+wasd or arrow keys and space
+shift to sprint
+https://mehthatcat.itch.io/prite
