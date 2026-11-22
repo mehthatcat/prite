@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://bpes58bcdnlop"]
+
+[ext_resource type="Script" uid="uid://b7pcqvwi7e077" path="res://yap_time.gd" id="1_8qea0"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_741bf"]
+size = Vector2(126.5, 792)
+
+[node name="yap time" type="Area2D" unique_id=1919591182]
+collision_layer = 7
+collision_mask = 7
+script = ExtResource("1_8qea0")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=20236430]
+position = Vector2(54, -345)
+shape = SubResource("RectangleShape2D_741bf")

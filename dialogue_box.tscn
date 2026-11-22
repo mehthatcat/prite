@@ -1,0 +1,33 @@
+[gd_scene format=3 uid="uid://6mbf5pl1cqk8"]
+
+[ext_resource type="Script" uid="uid://ycewys44etb" path="res://dialogue_box.gd" id="1_senjy"]
+[ext_resource type="FontFile" uid="uid://cusi8y8tvcgva" path="res://assets/PixelifySans-VariableFont_wght.ttf" id="2_n23yb"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0nste"]
+bg_color = Color(0.3137255, 0.39607844, 0.43137255, 1)
+
+[node name="dialogue box" type="CanvasLayer" unique_id=976724201]
+script = ExtResource("1_senjy")
+
+[node name="Panel" type="Panel" parent="." unique_id=412846658]
+offset_right = 40.0
+offset_bottom = 40.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_0nste")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Panel" unique_id=1858369400]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+theme_override_colors/default_color = Color(0.7137255, 0.76862746, 0.7882353, 1)
+theme_override_fonts/normal_font = ExtResource("2_n23yb")
+theme_override_fonts/bold_font = ExtResource("2_n23yb")
+theme_override_fonts/bold_italics_font = ExtResource("2_n23yb")
+theme_override_fonts/italics_font = ExtResource("2_n23yb")
+theme_override_fonts/mono_font = ExtResource("2_n23yb")
+
+[node name="NameLabel" type="Label" parent="Panel" unique_id=845527902]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+theme_override_fonts/font = ExtResource("2_n23yb")
+theme_override_font_sizes/font_size = 24
